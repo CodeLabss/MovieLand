@@ -1,8 +1,9 @@
-# React + Vite
+Overview
+This project is a React-based movie search application that allows users to search for movies using the OMDB API. Users can enter a movie title in a search bar, and the app will display a list of matching movies. The application also supports pagination, allowing users to load more results as they scroll.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Movie Search: Users can search for movies by title.
 
-Currently, two official plugins are available:
+Dynamic Pagination: The application loads additional movie results when the user scrolls to the bottom of the page or clicks the "Load More Movies" button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: The application is designed to be user-friendly and responsive across different devices.
